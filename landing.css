@@ -1,0 +1,356 @@
+*{
+padding:0px;
+margin:0px;
+}
+header{
+height:100vh;
+background-image:url("mcf.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:left;
+}
+#venue-details{
+padding-left:20px;
+float:left;
+color:white;
+}
+#sep a{
+type:inline;
+padding:15px;
+corsor:pointer
+}
+.main{
+max-width:1100px;
+margin:auto;
+}
+ul{
+list-style-type:none;
+float:right;
+margin-top:35px;
+}
+ul li{
+display:inline-block;
+border:1px solid transparent;
+}
+ul li a{
+color:yellow;
+text-decoration:none;
+display:block;
+padding:15px;
+}
+ul li a:hover{
+background-color:white;
+color:black;
+transition:0.6s ease;
+}
+.active{
+background-color:white;
+color:black;
+}
+.logo img{
+width:100px;
+height:50px;
+margin-top:45px;
+}
+.text{
+margin-top:110px;
+margin-left:50px;
+}
+#h11{
+font-family:sans-serif;
+font-size:60px;
+color:yellow
+}
+#bt1{
+border:1px solid yellow;
+background-color:transparent;
+color:yellow;
+padding:5px;
+margin-left:50px;
+border-radius: 5px;
+text-decoration:none;
+}
+#bt1:hover{
+background-color:white;
+color:black;
+transition:0.6s ease;
+
+}
+ .container {
+position:absolut;
+  display: flex;
+  align-items: left;
+  justify-content: space-between
+}
+#mcap {
+  width: 500px;
+  height:500px;
+}
+.text1 {
+margin-left:10px;
+  font-size: 20px;
+  padding-left: 0px;
+}
+.artist {
+margin-left:10px;
+  font-size: 20px;
+  padding-left: 5px;
+}
+#jsp{
+  width: 500px;
+  height:500px;
+}
+#bt3:hover,#bt4:hover,#bt5:hover,#bt6:hover{
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+#lsp5 {
+margin-top:60px;
+margin-left:100px;
+  width: 550px;
+  height:400px;
+}
+.livestream-event{
+margin-top:70px;
+margin-left:60px;
+  font-size: 20px;
+  padding-left: 5px;
+}
+#bt5,#bt6,#bt3,#bt
+{   display: inline-block;
+    border: none;
+    color: rgb(251, 247, 247);
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding: 10px 20px;
+}
+#bt4
+{
+    display: inline-block;
+    border: none;
+    color: white; 
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 10px 20px;
+
+}
+ol{
+list-style-type:none;
+}
+.contact-detail{
+font-size:20px;
+style:none;
+margin-top:30px;
+padding-left:20px;
+}
+#cup {
+margin-top:30px;
+float:left;
+  width: 500px;
+  height:300px;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 10px; 
+border-radius: 5px;
+}
+ul li {
+    display: inline-block;
+    border: 1px solid transparent;
+}
+ul li a {
+    color: yellow;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+ul li a:hover {
+    background-color: transparent; 
+    color: black;
+    transition: 0.6s ease;
+}
+@media (max-width: 767px) {
+    header {
+        height: auto;
+        background-position: center;
+    }
+    .main {
+        padding: 20px;
+    }
+    .text {
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: center;
+    }
+    ul {
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+    ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    ul li a {
+        display: inline-block;
+        padding: 10px;
+    }
+    .container {
+        display: block;
+    }
+    .text1, .artist, .livestream-event, .contact-detail {
+        margin-left: 0;
+        text-align: center;
+    }
+    .img, .img1 {
+        margin: 0 auto;
+    }
+}
+@media (min-width: 768px) {
+}
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 128, 128, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text1 {
+    text-align: center;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+.img {
+    width: 50%;
+    border-radius: 10px;
+}
+.container {
+    padding-bottom: 100px;
+}
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 128, 128, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img {
+    width: 50%;
+    border-radius: 10px;
+}
+.artist {
+    text-align: center;
+    margin-left: 20px; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+}
+.container {
+    padding-bottom: 100px; 
+}
+#livestream-events {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 128, 128, 0.5); 
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lsp5 {
+    width: 50%;
+    border-radius: 10px;
+}
+.livestream-event {
+    text-align: center;
+    margin-left: 200px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+#livestream-events {
+    padding-bottom: 50px;
+}
+.contact-detail {
+    text-align: center;
+    margin-top: 30px;
+}
+.contact-detail img {
+    display: block;
+    margin: 0 auto;
+}
+.contact-detail h2 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+.contact-detail ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.contact-detail ul li {
+    margin-bottom: 10px;
+}
+.contact-detail ul li:first-child {
+    margin-top: 10px;
+}
+.contact-detail p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+#contact-details {
+    padding-bottom: 100px;
+}
+.return-home {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+.return-home a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #e7e2e2;
+    text-decoration: none;
+    border-radius: 5px;
+}
